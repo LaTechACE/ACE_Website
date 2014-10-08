@@ -16,12 +16,12 @@
                         <?php
                             $links = array(
                                 'home' => array('Home'=>'Cyber Engineering Homepage'),
-                                'about' => array('About'=>'About Cyber Engineering Program'),
-                                'curriculum' => array('Curriculum' => 'Cyber Engineering Curriculum'),
-                                'faculty' => array('Faculty' => 'Cyber Engineering Faculty List'),
-                                'students' => array('Students' => 'Students Information'),
-                                'research' => array('Research' => 'Research Opportunities'),
-                                'contacts' => array('Contact' => 'Cyber Engineering Contact Information')
+                                'about' => array('About'=>'About The Association of Cyber Engineers'),
+                                //'curriculum' => array('Curriculum' => 'Cyber Engineering Curriculum'),
+                                //'faculty' => array('Faculty' => 'Cyber Engineering Faculty List'),
+                                //'students' => array('Students' => 'Students Information'),
+                                'projects' => array('Projects' => 'Association of Cyber Engineers Projects'),
+                                'officers' => array('Officers' => 'Association of Cyber Engineers Officers')
                                 //'' => array('' => ''),
                             );
                             if(!isset($_GET['p']))
@@ -41,13 +41,6 @@
         </div>
         <div id="body_content_wrapper">
             <div id="body_content">
-                <div id="body_right">
-                    <div id="twitterHolder">
-                        <a class="twitter-timeline"  href="https://twitter.com/LaTechACE" data-widget-id="511954506985115648">Tweets by @LaTechACE</a>
-                        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-                    </div>
-                </div>
-                <div id="body_main">
                     <?php
                         if(!isset($_GET['p']) || !array_key_exists($_GET['p'], $links))
                         {
@@ -62,7 +55,6 @@
                             echo '<center>Page not Found!</center>';
                         }
                     ?>
-                </div>
             </div>
         </div>
         
