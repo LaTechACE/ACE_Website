@@ -144,3 +144,22 @@ img{
         margin-bottom: 10px;
 	font-family: 'Courier New', Courier, monospace
 }
+
+.bio {
+    width: 100%;
+    margin-bottom: 20px;
+    float: left;
+}
+.bio .picture {
+    width: 150px;
+    float: left;
+    margin-right: 10px;
+}
+.bio .picture img {
+    width: 150px;
+    margin: 0px;
+    border: 1px solid black;
+}
+.bio .info {
+    float: left;
+}
