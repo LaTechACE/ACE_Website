@@ -106,26 +106,31 @@ img{
     padding-left: 10px;
     padding-right: 10px
 }
-#body_content{
-	background: url('body_content_bg.png') repeat-x;
-	padding-top: 20px;
-	width: 980px;
-        margin-top: 50px;
-	margin-right: auto;
-	margin-left: auto;
-        margin-bottom: 10px;
-	box-shadow: 0 0 8px #999;
-	border-radius: 0 0 10px 10px;
-	padding-bottom: 25px;
-	line-height: 22px;
-	color: #555;
-	background-color: #FFF
+#body_content_wrapper {
+    width: 980px;
+    margin-top: 50px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 10px;
+    line-height: 22px;
+    color: #555;
+}
+#body_content {
+    background: url('body_content_bg.png') repeat-x;
+    width: 100%;
+    box-shadow: 0 0 8px #999;
+    border-radius: 0 0 10px 10px;
+    background-color: #FFF;
+    padding-top: 20px;
+    padding-bottom: 25px;
+    float: left;
 }
 #body_main{
 	padding-right: 15px;
 	padding-left: 15px;
 	margin-left: auto;
-	margin-right: auto
+	margin-right: auto;
+        /*float: left;*/
 }
 #body_right{
 	font-size: 12px;
