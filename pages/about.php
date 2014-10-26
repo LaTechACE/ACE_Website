@@ -1,7 +1,7 @@
 <?php
 
 ?>
-<div id="body_main">
+<div class="well">
     <p>
         The Association of Cyber Engineers (ACE) is an exciting organization here at Louisiana Tech, ready to represent the Cyber Engineering program! ACE is the first organization of its kind, helping students not only learn about the fundamentals of cyber security, but also providing a platform and professional connections for members to use to excel their college career.
 

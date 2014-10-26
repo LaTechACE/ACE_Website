@@ -2,6 +2,6 @@
 
 ?>
 
-<div id="body_main">
-    TBD
+<div class="alert alert-danger">
+    <strong>Under Construction!</strong> Check back for updates.
 </div>
