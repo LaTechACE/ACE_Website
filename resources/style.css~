@@ -1,0 +1,12 @@
+.navbar-fixed-top .navbar-brand {
+    padding: 0 0;
+}
+
+img {
+	margin: none;
+	padding: none;
+	text-decoration: none;
+	border: none;
+	max-height: 100%;
+	width: auto;
+}
