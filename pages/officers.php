@@ -1,59 +1,58 @@
 <?php
-    $officers = array
+  $officers = array
+  (
+    'brandonbryant' => array
     (
-        'seansemple' => array
-        (
-            'name' => 'Sean Semple',
-            'position' => 'President',
-            'email' => 'sms079@latech.edu',
-            'bio' => ''
-        ),
-        'gustavemichel' => array
-        (
-            'name' => 'Gustave Michel',
-            'position' => 'Vice President',
-            'email' => 'gam017@latech.edu',
-            'bio' => ''
-        ),
-        'anthonyagee' => array
-        (
-            'name' => 'Anthony Agee',
-            'position' => 'Secretary',
-            'email' => 'aaa029@latech.edu',
-            'bio' => ''
-        ),
-        'holdenrose' => array
-        (
-            'name' => 'Holden D. Rose',
-            'position' => 'Treasurer',
-            'email' => 'hdr004@latech.edu',
-            'bio' => ''
-        ),
-        'brandonbryant' => array
-        (
-            'name' => 'Brandon Bryant',
-            'position' => 'Historian',
-            'email' => 'bwb016@latech.edu',
-            'bio' => ''
-        ),
-        'ashleighmulamula' => array
-        (
-            'name' => 'Ashleigh Mulamula',
-            'position' => 'Social Media Chair',
-            'email' => 'amu007@latech.edu',
-            'bio' => ''
-        )
-        
-        /*
-        '' => array
-        (
-            'name' => '',
-            'position' => '',
-            'email' => '',
-            'bio' => ''
-        ),
-        */
-        
+      'name' => 'Brandon Bryant',
+      'position' => 'President',
+      'email' => 'bwb016@latech.edu',
+      'bio' => ''
+    ),
+    'madelynmcnight' => array
+    (
+      'name' => 'Madelyn McNight',
+      'position' => 'Vice President',
+      'email' => 'mnm017@LaTech.edu',
+      'bio' => ''
+    ),
+    'zacharybrasseaux' => array
+    (
+      'name' => 'Zachary Brasseaux',
+      'position' => 'Secretary',
+      'email' => 'zpb004@LaTech.edu',
+      'bio' => ''
+    ),
+    'audreymcnew' => array
+    (
+      'name' => 'Audrey McNew',
+      'position' => 'Treasurer',
+      'email' => 'aem038@LaTech.edu',
+      'bio' => ''
+    ),
+    'kristinakhalidabasi' => array
+    (
+      'name' => 'Kristina Khalid-Abasi',
+      'position' => 'Social Media Officer',
+      'email' => 'kak031@LaTech.edu',
+      'bio' => ''
+    ),
+    'na' => array
+    (
+      'name' => 'TBA',
+      'position' => 'ESA Representative',
+      'email' => 'N/A',
+      'bio' => ''
+    )
+    /*
+    '' => array
+    (
+      'name' => '',
+      'position' => '',
+      'email' => '',
+      'bio' => ''
+    ),
+    */
+
     );
 ?>
 
