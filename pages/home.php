@@ -4,27 +4,14 @@
 <div class="row">
   <div class="col-md-9">
     <div class="hidden-sm hidden-xs">
-      <iframe class="calendar" src="https://www.google.com/calendar/embed?
-          showPrint=1&amp;
-          showTabs=1&amp;
-          showCalendars=0&amp;
-          wkst=1&amp;
-          src=ea50c152hp4tou11vd571kcl9s%40group.calendar.google.com&amp;
-          ctz=America%2FChicago"
+      <iframe class="calendar" src="https://www.google.com/calendar/embed?src=ea50c152hp4tou11vd571kcl9s%40group.calendar.google.com&amp;ctz=America%2FChicago&amp;showPrint=1&amp;showTabs=1&amp;showCalendars=0&amp;wkst=1"
         style="border: 0; width: 100%; min-height: 600px; height: 100%;"
         frameborder="0"
         scrolling="no">
       </iframe>
     </div>
     <div class="visible-xs visible-sm">
-      <iframe class="upcomingEvents" src="https://www.google.com/calendar/embed?
-          showPrint=0&amp;
-          showTabs=0&amp;
-          showCalendars=0&amp;
-          mode=AGENDA&amp;
-          wkst=1&amp;
-          src=ea50c152hp4tou11vd571kcl9s%40group.calendar.google.com&amp;
-          ctz=America%2FChicago"
+      <iframe class="upcomingEvents" src="https://www.google.com/calendar/embed?src=ea50c152hp4tou11vd571kcl9s%40group.calendar.google.com&amp;ctz=America%2FChicago&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;mode=AGENDA&amp;wkst=1"
         style="border: 0; width: 100%; min-height: 600px; height: 100%;"
         frameborder="0"
         scrolling="no">
