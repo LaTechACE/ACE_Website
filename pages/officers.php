@@ -36,11 +36,11 @@
       'email' => 'kak031@LaTech.edu',
       'bio' => ''
     ),
-    'na' => array
+    'justinberthelot' => array
     (
-      'name' => 'TBA',
+      'name' => 'Justin Berthelot',
       'position' => 'ESA Representative',
-      'email' => 'N/A',
+      'email' => 'jmb143@LaTech.edu',
       'bio' => ''
     )
     /*
