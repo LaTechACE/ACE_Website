@@ -1,0 +1,264 @@
+/*Assoc. of Cyber Engineers Website*/
+/*Vast majority of styling should be done in this sheet*/
+
+/*------------------------BOOTSTRAP JUMBOTRON STYLING-------------------*/
+
+/*Edited jumbotron image and set the bottom margin to 2px*/
+.jumbotron {
+  background-image:url('../../img/more cyberstorm/Purple.png');
+  height: 425px;
+  background-repeat: no-repeat;
+  background-size: cover;
+	margin-bottom: 2px;
+}
+
+.shade {
+  width: 110%;
+  height: 115%;
+  background: rgba(100,100,100,0.25);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.jumbotron .container {
+  position: relative;
+  top:65px;
+}
+
+.jumbotron h1 {
+  color: white;
+  font-size: calc(24pt + .75vw);  
+  font-family: 'Shift', sans-serif;
+  font-weight: bold;
+}
+
+.jumbotron p {
+  font-size: calc(14pt + .5vw);
+  color: white;
+}
+
+/*------------------------END OF JUMBOTRON-------------------*/
+
+
+/*------------------------BOOTSTRAP PARALLAX STYLING-------------------*/
+
+/*parallax and parallax-2 (for some reason, parallax-1 wouldn't work), are scrolling
+  images with a cool animation, I think it makes websites stand out as more professional
+  but is totally subject to change*/
+.parallax {
+    /* The image used */
+    background-image: url('../../img/cyberstorm/5.png');
+
+    /* Set a specific height */
+    min-height: 100px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax_1 {
+    /* The image used */
+    background-image: url('../../img/cyberstorm/5.png');
+
+    /* Set a specific height */
+    min-height: 3px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax-2 {
+    /* The image used */
+    background-image: url('../../img/more cyberstorm/Bulldog.png');
+
+    /* Set a specific height */
+    min-height: 300px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax-3 {
+    /* The image used */
+    background-image: url('../../img/more cyberstorm/Screen.png');
+
+    /* Set a specific height */
+    min-height: 300px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*------------------------END OF PARALLAX IMAGES-------------------*/
+
+
+/*--------------------------- navbar styling ----------------------*/
+.nav {
+  position: fixed;
+  background-color: #efefef;
+  border-bottom: 1px solid #dbdbdb;
+  width: 100%;
+  height: calc(27px + .4vw);
+  top: 0;
+  opacity: 1.0;
+  z-index: 10000000;
+  overflow: hidden;
+}
+
+.left {
+	float: right !important;
+}
+
+.nav a {
+  float: left;
+  color: #5a5a5a;
+  font-size: calc(7.75px + .25vw);
+  font-weight: bold;
+  padding: 10px 10px;
+  text-transform: uppercase;
+}
+
+.nav a:hover {
+    background: #e1e1e1;
+    color: black;
+}
+
+.nav li {
+  display: inline;
+}
+
+.nav .icon {
+  height: 15px;
+  width: 15px;
+  display: none;
+}
+
+.active {
+  background-color: #d1d1d1;
+  color: white;
+  
+}
+
+/*@media screen and (max-width: 600px) {
+  .nav a:not(:first-child) {display: none;}
+  .nav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .nav.responsive {position: relative;}
+  .nav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .nav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+
+  .left {
+  	float: left !important;
+  	display: block;
+  }
+*/
+/*------------------------ End of navbar styling -------------------*/
+
+/*------------------------GENERAL ELEMENT STYLING-------------------*/
+
+.information-panel {
+    background-color: #efefef;
+    border-bottom: 1px solid #dbdbdb;
+}
+
+.information-panel h2 {
+    color: #393c3d;
+    font-size: calc(22pt + 1vw);
+}
+
+.information-panel h4 {
+    color: #393c3d;
+    font-size: calc(16pt + .6vw);
+}
+
+.information-panel p {
+    font-size: calc(10pt + .5vw);
+    margin-bottom: 13px;
+}
+
+.learn-more {
+  background-color: #f7f7f7;
+}
+
+.learn-more h3 {
+  font-family: 'Shift', sans-serif;
+  font-size: calc(16pt + .15vw);
+  font-weight: bold;
+}
+
+.learn-more p {
+	font-size: calc(10pt + .5vw)
+}
+
+.learn-more a {
+  color: #00b0ff;
+}
+
+.image img {
+  max-width: 100px;
+  max-height: 100px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  /*height: 100%;*/
+}
+
+/*Minor stylings for the thumbnails so they don't take up the whole screen, 
+  and actually match the background*/
+.thumbnail {
+  /*background: #efefef;*/
+  width: 100%;
+  height: 100%;
+}
+
+.thumbnail img {
+  max-width: 150px;
+  max-height: 150px;
+}
+
+.row {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+h1 {
+  padding-top: 10px;
+}
+
+.footerText {
+  border-top: 1px solid #dbdbdb;
+}
+
+.footerText p {
+  font-size: calc(7px + .25vw);
+  color: #191c1d;
+  text-align: center;
+}
+
+/*------------------------END OF ELEMENT STYLING-------------------*/

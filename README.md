@@ -1,4 +1,2 @@
-Website
-=======
+# Website for the Assoc. of Cyber Engineers
 
-The public website at ace.latech.edu
