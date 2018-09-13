@@ -263,11 +263,27 @@ h1 {
 
 .footerContainer {
   padding-right: calc(5px + .75vw);
+  padding-left: calc(5px + .75vw);
 }
 
 .footerContainer p {
   color: #8e99a8;
   font-size: calc(5 + .05vw)
+}
+
+.fa {
+  color: #8e99a8;
+  text-align: center;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
+.fa i {
+  text-align: center;
+}
+
+.centered {
+  text-align: center;
 }
 
 /*------------------------END OF ELEMENT STYLING-------------------*/
