@@ -181,6 +181,10 @@
 
 /*------------------------GENERAL ELEMENT STYLING-------------------*/
 
+p {
+  overflow-wrap: break-word;
+}
+
 .information-panel {
     background-color: #efefef;
     border-bottom: 1px solid #dbdbdb;
